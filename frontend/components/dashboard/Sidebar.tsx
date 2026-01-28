@@ -10,6 +10,7 @@ import {
   MessageSquare,
   Settings,
   Wrench,
+  BarChart3,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
 
@@ -18,6 +19,7 @@ const navigation = [
   { name: "Leads", href: "/leads", icon: Target },
   { name: "Appointments", href: "/appointments", icon: Calendar },
   { name: "AI Chat", href: "/chat", icon: MessageSquare },
+  { name: "Analytics", href: "/analytics", icon: BarChart3 },
   { name: "Customers", href: "/customers", icon: Users },
   { name: "Settings", href: "/settings", icon: Settings },
 ];
